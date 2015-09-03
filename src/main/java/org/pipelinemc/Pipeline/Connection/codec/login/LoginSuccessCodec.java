@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.codec.login;
+package org.pipelinemc.Pipeline.Connection.codec.login;
 
 import com.flowpowered.networking.Codec;
 import com.flowpowered.networking.util.ByteBufUtils;

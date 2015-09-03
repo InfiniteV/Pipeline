@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.protocol;
+package org.pipelinemc.Pipeline.Connection.protocol;
 
 
 import com.flowpowered.networking.Codec;

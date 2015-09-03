@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.handler.handshake;
+package org.pipelinemc.Pipeline.Connection.handler.handshake;
 
 import com.flowpowered.networking.MessageHandler;
 import net.glowstone.GlowServer;

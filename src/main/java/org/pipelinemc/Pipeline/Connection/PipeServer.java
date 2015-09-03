@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection;
+package org.pipelinemc.Pipeline.Connection;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

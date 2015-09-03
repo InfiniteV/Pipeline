@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Util;
+package org.pipelinemc.Pipeline.Util;
 
 import com.google.common.collect.Maps;
 import org.apache.commons.lang.Validate;

@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.message.play.game;
+package org.pipelinemc.Pipeline.Connection.message.play.game;
 
 import com.flowpowered.networking.Message;
 import com.flowpowered.networking.util.ByteBufUtils;

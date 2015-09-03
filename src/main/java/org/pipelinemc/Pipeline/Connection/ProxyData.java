@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection;
+package org.pipelinemc.Pipeline.Connection;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

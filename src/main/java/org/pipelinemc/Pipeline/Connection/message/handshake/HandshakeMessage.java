@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.message.handshake;
+package org.pipelinemc.Pipeline.Connection.message.handshake;
 
 import com.flowpowered.networking.AsyncableMessage;
 import lombok.Data;

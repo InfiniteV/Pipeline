@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Util;
+package org.pipelinemc.Pipeline.Util;
 
 import org.apache.commons.lang.Validate;
 import org.json.simple.JSONArray;

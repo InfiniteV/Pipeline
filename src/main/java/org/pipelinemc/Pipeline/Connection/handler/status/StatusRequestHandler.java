@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.handler.status;
+package org.pipelinemc.Pipeline.Connection.handler.status;
 
 import com.flowpowered.networking.MessageHandler;
 import net.glowstone.EventFactory;

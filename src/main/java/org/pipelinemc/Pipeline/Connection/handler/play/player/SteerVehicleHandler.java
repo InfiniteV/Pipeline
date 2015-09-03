@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.handler.play.player;
+package org.pipelinemc.Pipeline.Connection.handler.play.player;
 
 import com.flowpowered.networking.MessageHandler;
 import net.glowstone.GlowServer;

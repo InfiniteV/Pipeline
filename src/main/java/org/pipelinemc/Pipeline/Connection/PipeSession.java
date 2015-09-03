@@ -1,9 +1,9 @@
- package main.java.org.pipelinemc.Pipeline.Connection;
+ package org.pipelinemc.Pipeline.Connection;
 
  import com.flowpowered.networking.Message;
  import com.flowpowered.networking.session.BasicSession;
  import io.netty.channel.Channel;
- import main.java.org.pipelinemc.Pipeline.Connection.protocol.ProtocolType;
+ import org.pipelinemc.Pipeline.Connection.protocol.ProtocolType;
 
  import java.net.InetSocketAddress;
  import java.util.ArrayDeque;

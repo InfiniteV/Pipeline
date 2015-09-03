@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection;
+package org.pipelinemc.Pipeline.Connection;
 
 import com.flowpowered.networking.ConnectionManager;
 import com.flowpowered.networking.session.Session;
@@ -9,7 +9,7 @@ import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import main.java.org.pipelinemc.Pipeline.Connection.pipe.PipeChannelInitializer;
+import org.pipelinemc.Pipeline.Connection.pipe.PipeChannelInitializer;
 
 import java.net.SocketAddress;
 

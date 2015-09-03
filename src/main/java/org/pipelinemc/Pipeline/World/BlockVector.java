@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.World;
+package org.pipelinemc.Pipeline.World;
 
 public class BlockVector implements Cloneable {
     private int x, y, z;

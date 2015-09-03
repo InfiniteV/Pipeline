@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline;
+package org.pipelinemc.Pipeline;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.codec.handshake;
+package org.pipelinemc.Pipeline.Connection.codec.handshake;
 
 import com.flowpowered.networking.Codec;
 import com.flowpowered.networking.util.ByteBufUtils;

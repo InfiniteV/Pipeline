@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.message.play.player;
+package org.pipelinemc.Pipeline.Connection.message.play.player;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

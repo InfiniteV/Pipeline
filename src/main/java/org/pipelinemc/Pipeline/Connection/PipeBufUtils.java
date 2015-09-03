@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection;
+package org.pipelinemc.Pipeline.Connection;
 
 import com.flowpowered.networking.util.ByteBufUtils;
 import io.netty.buffer.ByteBuf;

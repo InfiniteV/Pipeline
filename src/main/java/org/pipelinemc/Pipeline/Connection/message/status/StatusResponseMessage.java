@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.message.status;
+package org.pipelinemc.Pipeline.Connection.message.status;
 
 import com.flowpowered.networking.Message;
 import lombok.Data;

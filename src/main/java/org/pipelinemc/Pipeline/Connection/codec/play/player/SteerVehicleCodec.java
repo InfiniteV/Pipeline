@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.codec.play.player;
+package org.pipelinemc.Pipeline.Connection.codec.play.player;
 
 import com.flowpowered.networking.Codec;
 import io.netty.buffer.ByteBuf;

@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.protocol;
+package org.pipelinemc.Pipeline.Connection.protocol;
 
 /**
  * Created by JessiePeek on 9/3/2015.

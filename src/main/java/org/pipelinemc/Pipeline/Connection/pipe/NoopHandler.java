@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.pipe;
+package org.pipelinemc.Pipeline.Connection.pipe;
 
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerAdapter;

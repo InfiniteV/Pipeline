@@ -1,7 +1,7 @@
-package main.java.org.pipelinemc.Pipeline.Connection.protocol;
+package org.pipelinemc.Pipeline.Connection.protocol;
 
 
-import main.java.org.pipelinemc.Pipeline.Connection.codec.handshake.HandshakeCodec;
+import org.pipelinemc.Pipeline.Connection.codec.handshake.HandshakeCodec;
 import sun.security.ssl.HandshakeMessage;
 
 /**

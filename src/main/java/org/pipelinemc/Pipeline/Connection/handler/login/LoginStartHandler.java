@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.handler.login;
+package org.pipelinemc.Pipeline.Connection.handler.login;
 
 import com.flowpowered.networking.MessageHandler;
 import net.glowstone.entity.meta.profile.PlayerProfile;

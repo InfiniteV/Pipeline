@@ -1,4 +1,4 @@
-package main.java.org.pipelinemc.Pipeline.Connection.pipe;
+package org.pipelinemc.Pipeline.Connection.pipe;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
