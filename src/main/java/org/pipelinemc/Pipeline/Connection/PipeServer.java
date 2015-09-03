@@ -1,4 +1,4 @@
-package org.pipelinemc.Pipeline.Connection;
+package main.java.org.pipelinemc.Pipeline.Connection;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
@@ -6,11 +6,18 @@ import io.netty.channel.ChannelFuture;
 import java.net.BindException;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
+import java.util.LinkedList;
 
 public class PipeServer {
     private PipeConnectionManager conman;
-    public PipeServer(String ip, int port) throws BindException {
-        conman = new PipeConnectionManager();
+
+    public static PipeServer start(String ip, int port) throws BindException {
+        return new PipeServer(ip,port);
+    }
+
+    LinkedList<PipeSession> clients = new LinkedList<PipeSession>();
+    private PipeServer(String ip, int port) throws BindException {
+        conman = new PipeConnectionManager(this);
         SocketAddress address;
         if (ip.length() == 0) { address = new InetSocketAddress(port);
         } else { address = new InetSocketAddress(ip, port);}
@@ -27,9 +34,11 @@ public class PipeServer {
 
         System.out.println("Successfully bound to: " + channel.localAddress());
         port = ((InetSocketAddress) channel.localAddress()).getPort();
-
     }
 
+    public LinkedList<PipeSession> getSessionRegistry() {
+        return clients;
+    }
 
 
 }

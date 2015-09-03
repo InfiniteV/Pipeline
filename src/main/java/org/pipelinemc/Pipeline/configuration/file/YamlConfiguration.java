@@ -6,10 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.util.Map;
-import java.util.logging.Level;
 
 import org.apache.commons.lang.Validate;
-import org.pipelinemc.Pipeline.Logger;
 import org.pipelinemc.Pipeline.configuration.configuration.Configuration;
 import org.pipelinemc.Pipeline.configuration.configuration.ConfigurationSection;
 import org.pipelinemc.Pipeline.configuration.configuration.InvalidConfigurationException;

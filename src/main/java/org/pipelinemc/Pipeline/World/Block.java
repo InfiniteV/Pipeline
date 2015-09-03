@@ -1,6 +1,5 @@
 package org.pipelinemc.Pipeline.World;
 
-import org.pipelinemc.Pipeline.World.Location;
 
 public class Block {
 

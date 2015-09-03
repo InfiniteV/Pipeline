@@ -1,4 +1,4 @@
-package org.pipelinemc.Pipeline;
+package main.java.org.pipelinemc.Pipeline;
 
 import org.pipelinemc.Pipeline.configuration.Config;
 import org.pipelinemc.Pipeline.configuration.ConfigManager;

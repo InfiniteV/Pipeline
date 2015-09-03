@@ -1,4 +1,4 @@
-package org.pipelinemc.Pipeline;
+package main.java.org.pipelinemc.Pipeline;
 
 import java.util.Date;
 
@@ -25,6 +25,15 @@ public class Logger {
 		Date date = new Date();
 		String prefix = String.format("[%s:%s:%s] %s[WARN]%s ", date.getHours(),date.getMinutes(),date.getSeconds(),ANSI_YELLOW,ANSI_RESET);
 		System.out.println(prefix + "");
+	}
+
+	public static void err(String string, Exception e){
+		Date date = new Date();
+		String datePrefix = String.format("[%s:%s:%s] ",  date.getHours(),date.getMinutes(),date.getSeconds());
+		String prefix = String.format(datePrefix + "%s [Error] "+string+"%s",ANSI_RED,ANSI_RESET);
+		System.out.println(prefix);
+		System.out.println(datePrefix  + e);
+		System.out.println(prefix);
 	}
 
 }
