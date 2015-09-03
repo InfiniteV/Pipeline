@@ -1,0 +1,18 @@
+group 'Pipeline'
+version '1.0.0-DEV'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.flowpowered:flow-networking:1.0.0-SNAPSHOT'
+    compile 'jline:jline:2.11'
+    compile 'io.netty:netty-all:4.0.4.Final'
+    compile 'org.slf4j:slf4j-jdk14:1.7.7'
+    compile 'org.projectlombok:lombok:1.16.6'
+}

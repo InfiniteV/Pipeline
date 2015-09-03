@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: org.pipelinemc.Pipeline.Pipeline
+Main-Class: org.pipelinemc.Pipeline.Pipeline
+
