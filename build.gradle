@@ -6,11 +6,16 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 
 repositories {
+    mavenLocal()
     mavenCentral()
+    maven {
+        name = 'sonatype-nexus'
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
 }
 
 dependencies {
-    compile 'com.flowpowered:flow-networking:1.0.0-SNAPSHOT'
+    compile 'com.flowpowered:flow-networking:0.1.0-SNAPSHOT'
     compile 'jline:jline:2.11'
     compile 'io.netty:netty-all:4.0.4.Final'
     compile 'org.slf4j:slf4j-jdk14:1.7.7'
